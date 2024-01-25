@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 product_sendo
+python3 product_sendo.py
