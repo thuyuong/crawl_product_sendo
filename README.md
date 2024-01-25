@@ -17,8 +17,8 @@ Before you start, make sure you have the following installed on your machine:
 1. Clone this repository to your local machine.
 
     ```bash
-    git clone https://github.com/your_username/sendodata.git
-    cd sendodata
+    https://github.com/thuyuong/crawl_product_sendo.git
+    cd crawl_product_sendo
     ```
 
 2. Run the setup script to install Python libraries.
@@ -35,6 +35,9 @@ Before you start, make sure you have the following installed on your machine:
     ```bash
     ./bin/start.sh
     ```
+   Output result:
+    - Calculate revenue per transaction
+    - Calculate total revenue per shop
 
 ## Additional Notes
 
