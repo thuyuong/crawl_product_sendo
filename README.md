@@ -37,8 +37,9 @@ Before you start, make sure you have the following installed on your machine:
     ```
    Output result:
     - Calculate revenue per transaction
+      ![image](https://github.com/thuyuong/crawl_product_sendo/assets/75436571/7b537186-2431-46bc-9b48-a7543c14e681)
     - Calculate total revenue per shop
-
+      ![image](https://github.com/thuyuong/crawl_product_sendo/assets/75436571/b66490f3-e068-4b9d-a96e-b3e91da2817a)
 ## Additional Notes
 
 - Adjust configurations and settings in the PySpark script or Spark configuration files as needed.
