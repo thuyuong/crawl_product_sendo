@@ -66,8 +66,9 @@ df3 = df2.withColumn("revenue", col("price").cast("float") * col("order_count").
 df4 = df3.groupBy(["shop_id","shop_name"]).agg(sum("revenue").alias("total_revenue"))
 
 # Export DataFrame to file CSV with encoding UTF-8
-df3.toPandas().to_csv("output/revenue_items.csv",header=True, encoding="UTF-8")
-df4.toPandas().to_csv("output/revenue_shops.csv", header=True, encoding="UTF-8")
+df3.toPandas().to_csv("output/revenue_items.csv",header=True, encoding="UTF-8", mode="w")
+df4.toPandas().to_csv("output/revenue_shops.csv", header=True, encoding="UTF-8", mode="w")
+
 
 # Read the CSV file again to check
 df_read_rev_items = spark.read.csv("output/revenue_items.csv", header=True, encoding="UTF-8")
